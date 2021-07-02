@@ -1,0 +1,42 @@
+{
+  "name": "psivitoriadocarmo",
+  "version": "1.0.0",
+  "description": "Site de portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build ./assets/* --public-url ./",
+    "dev": "parcel watch ./assets/* --public-url ./",
+    "lint": "run-s -cl lint:scripts lint:styles",
+    "lint-fix": "run-s -cl lint-fix:scripts lint-fix:styles",
+    "lint:scripts": "eslint --color --ext .js ./assets/**/*.js",
+    "lint:styles": "stylelint --color ./assets/**/*.scss",
+    "lint-fix:scripts": "eslint --color --fix ./assets/**",
+    "lint-fix:styles": "stylelint --color --fix ./assets/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psivitoriadocarmo/psivitoriadocarmo.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psivitoriadocarmo/psivitoriadocarmo.github.io/issues"
+  },
+  "homepage": "https://github.com/psivitoriadocarmo/psivitoriadocarmo.github.io#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-transform-react-constant-elements": "^7.10.4",
+    "autoprefixer": "^9.6.5",
+    "bootstrap": "^4.5.2",
+    "clsx": "^1.1.1",
+    "copy-to-clipboard": "^3.2.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jquery": "^3.6.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-modules": "^1.4.1",
+    "sass": "^1.35.1"
+  }
+}

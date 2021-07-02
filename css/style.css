@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+span {
+    color: #fafafa;
+}
+
+
+@font-face {
+    font-family: JosefinSans-Regular;
+    src: url('../fonts/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: Champagne-Limousines;
+    src: url('../fonts/Champagne\ &\ Limousines.ttf');
+}
+
+
+@font-face {
+    font-family: Moderna;
+    src: url('../fonts/Modena.ttf');
+}
+
+.Container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: slateblue;
+}
+
+.Content {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.Description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('../images/nuvem.svg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: auto;
+}
+
+.Image  {
+    display: flex;
+    justify-content: flex-end;
+    clip-path: polygon(99% 1%, 100% 100%, 27% 100%, 0% 53%, 27% 1%);
+}
+
+.Parallax {
+    background-attachment: fixed;
+}
+
+.DescriptionFunction {
+    font-size: 5em;
+    font-family: 'JosefinSans-Regular';
+}
+
+.DescriptionName {
+    font-size: 8em;
+    font-family: 'Moderna';
+}
+
+.DescriptionField {
+    font-size: 3em;
+    font-family: 'Champagne-Limousines';
+}
