@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/psivitoriadocarmo/psivitoriadocarmo.github.io#readme",
   "dependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "typed.js": "^2.0.12"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
@@ -37,6 +38,7 @@
     "jquery": "^3.6.0",
     "postcss-loader": "^3.0.0",
     "postcss-modules": "^1.4.1",
+    "rellax": "^1.12.1",
     "sass": "^1.35.1"
   }
 }

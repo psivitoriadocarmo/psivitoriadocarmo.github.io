@@ -1,0 +1,26 @@
+.ACircle {
+    
+    &__yellow {
+        background-color: $color-yellow;
+        border-radius: 50%;
+        position: absolute;
+        height: var(--height);
+        width: var(--height);
+        top: var(--top);
+        left: var(--left);
+        z-index: 2;
+    }
+    
+    &__blue {
+        border-radius: 50%;
+        position: absolute;    
+        background-color: $color-blue;
+        height: var(--height);
+        width: var(--height);
+        top: var(--top);
+        left: var(--left);
+        right: var(--right);
+        bottom: var(--bottom);
+        z-index: 2;
+    }
+}

@@ -1,0 +1,12 @@
+.CircleFadeIn {
+    animation: circleFadeIN 2s ease-out ;
+}
+
+@keyframes circleFadeIN {
+    0% {
+        transform: translate( var(--posXIni), var(--posYIni));
+    }
+    100% {
+        transform: translate( var(--posXEnd), var(--posYEnd));
+    }
+}

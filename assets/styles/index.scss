@@ -1,0 +1,13 @@
+@import './reset.scss';
+@import './fonts.scss';
+@import './variables.scss';
+
+
+@import './organisms/Home.scss';
+
+@import './atoms/Circle.scss';
+
+@import './genereric/ACircle.scss';
+
+@import './animations/CircleFadeIn.scss';
+@import './animations/ImageShow.scss';

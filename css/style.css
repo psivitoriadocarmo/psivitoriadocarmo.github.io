@@ -7,21 +7,6 @@ span {
 }
 
 
-@font-face {
-    font-family: JosefinSans-Regular;
-    src: url('../fonts/JosefinSans-Regular.ttf');
-}
-
-@font-face {
-    font-family: Champagne-Limousines;
-    src: url('../fonts/Champagne\ &\ Limousines.ttf');
-}
-
-
-@font-face {
-    font-family: Moderna;
-    src: url('../fonts/Modena.ttf');
-}
 
 .Container {
     display: flex;

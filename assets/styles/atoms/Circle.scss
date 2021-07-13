@@ -1,0 +1,16 @@
+.Circle {
+    
+    &__yellow {
+        background-color: $color-yellow;
+        border-radius: 50%;
+        position: absolute;
+        top: 10vh;
+    }
+    
+    &__blue {
+        top: 10vh;
+        border-radius: 50%;
+        position: absolute;    
+        background-color: $color-blue;
+    }
+}
